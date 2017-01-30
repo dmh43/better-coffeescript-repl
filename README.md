@@ -1,3 +1,11 @@
+# Differences from regular Coffeescript
+- `_` is not assigned to the previous value in the repl
+- Previous value in repl is now available as `$_`
+- TODO: Provide access to other previous values (last three values or so)
+- TODO: Inject lodash as `_` in future versions
+- TODO: Support muting repl output for very long values
+- TODO: Provide as an independent package from Coffeescript
+
             {
          }   }   {
         {   {  }  }
